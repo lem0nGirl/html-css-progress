@@ -1,12 +1,27 @@
 
-
 body {
     font-family: Arial, sans-serif;
     background-image: radial-gradient(circle at 10.21% 10.21%, #b6fd38 0, #9bf636 16.67%, #7bee31 33.33%, #51e32c 50%, #00d829 66.67%, #00cf2c 83.33%, #00c733 100%);
-    
+    background: url("/main_menu.png");
+    background-size: 100%;
 }
 
-h1 {
-    color: #333;
+
+.container {
+    display: flex;
+    justify-content: center;
 }
 
+.dg {
+    background: #09b83d;
+    border: 3px #b30bd4 solid ;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    opacity: .7;
+    transition: all .2s linear;
+
+}
+.dg:focus, .dg:hover {
+    background: #200ccc;
+}
